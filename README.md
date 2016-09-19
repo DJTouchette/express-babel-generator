@@ -55,6 +55,26 @@ function gen {
 
 `npm run build:docs`: Turns your comments into api docs. (http://apidocjs.com/)
 
+# File Structure
+src
+├── .babelrc ---- Babel config
+├── config
+|   ├── index.js --- Genral config files
+|   
+├── models --- All db models
+|   ├── index.js
+|
+├── routes --- All routes to be consumed
+|   ├── index.js
+|
+├── server --- Creating and setting up the server
+|   ├── index.js
+|   └── middleware.js --- Adding middleware
+|   └── server.js --- Creating Server
+├── index.js --- Starting point
+|
+├── .env
+
 # Done
 
 Feel free to fork or do what ever!
