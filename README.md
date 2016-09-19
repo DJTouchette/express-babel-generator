@@ -55,7 +55,7 @@ function gen {
 `npm run build:docs`: Turns your comments into api docs. (http://apidocjs.com/)
 
 # File Structure
-`
+```
 src
 ├── .babelrc ---- Babel config
 ├── config
@@ -74,7 +74,7 @@ src
 ├── index.js --- Starting point
 |
 ├── .env
-`
+```
 
 # Done
 
