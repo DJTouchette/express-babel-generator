@@ -23,7 +23,8 @@ function gen {
   cd $1 && npm init;
   RESTfiles;
 
-}```
+}
+```
 
 3) While your in there alias this function:
 `alias genREST=gen`
@@ -54,6 +55,7 @@ function gen {
 `npm run build:docs`: Turns your comments into api docs. (http://apidocjs.com/)
 
 # File Structure
+`
 src
 ├── .babelrc ---- Babel config
 ├── config
@@ -72,6 +74,7 @@ src
 ├── index.js --- Starting point
 |
 ├── .env
+`
 
 # Done
 
