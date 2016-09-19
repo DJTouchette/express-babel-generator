@@ -22,7 +22,6 @@ function gen {
   RESTdir $1;
   cd $1 && npm init;
   RESTfiles;
-
 }
 ```
 
@@ -46,13 +45,13 @@ function gen {
 
 # Built in npm scripts
 
-`npm run start`: Runs the express server with nodemon and starts babel.
+`$ npm run start`: Runs the express server with nodemon and starts babel.
 
-`npm run build`: Compiles es 2015 to a dist folder for production.
+`$ npm run build`: Compiles es 2015 to a dist folder for production.
 
-`npm run serve` : Runs the production code from dist directory.
+`$ npm run serve` : Runs the production code from dist directory.
 
-`npm run build:docs`: Turns your comments into api docs. (http://apidocjs.com/)
+`$ npm run build:docs`: Turns your comments into api docs. (http://apidocjs.com/)
 
 # File Structure
 ```
