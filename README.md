@@ -15,7 +15,7 @@ Theres two ways to proceed:
 1) In your terminal `$ vim ~/.bash_profile`
 
 2) Add this function
-`
+```bash
 function gen {
   alias RESTdir="node /path/to/git/repo/expressStructure.js";
   alias RESTfiles="node /path/to/git/repo/expressBoilerREST.js";
@@ -23,9 +23,7 @@ function gen {
   cd $1 && npm init;
   RESTfiles;
 
-}
-
-`
+}```
 
 3) While your in there alias this function:
 `alias genREST=gen`
